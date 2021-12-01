@@ -9,7 +9,7 @@ class PortfolioApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.black26,
+          backgroundColor: Colors.white,
           title: Text("My Portfolio",
           textDirection: TextDirection.ltr,
           ),
@@ -31,7 +31,7 @@ class PortfolioApp extends StatelessWidget{
                     "Jeremiah Ekanem",
                     textDirection: TextDirection.ltr,
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 15,
                       color: Colors.white,
                       fontWeight: FontWeight.bold
                     ),
@@ -41,11 +41,11 @@ class PortfolioApp extends StatelessWidget{
               Expanded(
                 child: Container(
                   height: 100,
-                  width: 100,
+                  width: 1000,
                   decoration: BoxDecoration(
                     color: Colors.amberAccent,
                   ),
-                  alignment: Alignment.center,
+                  alignment: Alignment.topCenter,
                   margin: EdgeInsets.all(20),
                   child: Text(
                     "My name is Jeremiah Ekanem, a student learning Mobile Development in the ongoing zuri internship 2021",
@@ -57,6 +57,7 @@ class PortfolioApp extends StatelessWidget{
                     ),
                   ),
                 )
+                    
               ),
             ],
 
